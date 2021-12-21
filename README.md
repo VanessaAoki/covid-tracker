@@ -65,15 +65,15 @@ To launch the test runner in the interactive watch mode, run `$ npm test` in you
 ### Live server
 Optionally, you can run the application [here](https://react-covid-tracker-2021.herokuapp.com/main).
 
-## Author
+## 👩🏼‍💻 Author
 
-👩🏼‍💻 **Vanessa Aoki**
+**Vanessa Aoki**
 
 - GitHub: [@VanessaAoki](https://github.com/VanessaAoki)
 - Twitter: [@VanessaSAoki](https://twitter.com/VanessaSAoki)
 - Linkedin: [Vanessa Aoki](https://www.linkedin.com/in/vanessasaoki/)
 
-## ⭐️ Aknowledgements
+## ⭐️ Acknowledgments
 
 Original design by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
