@@ -12,7 +12,7 @@ describe('Input page renders as required', () => {
     expect(data.length).toBe(27);
   });
 
-  it('Should be rendering 27 regions', () => {
+  it('Should be rendering only 4 regions', () => {
     const data = [
       {
         id: 'MockState1',

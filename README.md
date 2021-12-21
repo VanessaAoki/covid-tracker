@@ -18,7 +18,6 @@
 
 # Covid-tracker
 Covid-tracker is a website that allows users to have access to the latest covid data in Brazil. They can also filter by region name, as well as get more informations on that specific region by clicking on it.
-> Original design by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
 <p align="center">
   <img src="./src/assets/screenshot1.png" alt="main screen" width="400">
@@ -60,7 +59,7 @@ $ npm start
 3. If your default browser do not start automatically, open it and type `http://localhost:3000` to run the application.
 
 ### Running tests
-To launch the test runner in the interactive watch mode, run `$ yarn test` in your console.
+To launch the test runner in the interactive watch mode, run `$ npm test` in your console.
 > To read more information about running tests, visit [create react app website](https://create-react-app.dev/docs/running-tests/);
 
 ### Live server
@@ -73,6 +72,10 @@ Optionally, you can run the application [here](https://react-covid-tracker-2021.
 - GitHub: [@VanessaAoki](https://github.com/VanessaAoki)
 - Twitter: [@VanessaSAoki](https://twitter.com/VanessaSAoki)
 - Linkedin: [Vanessa Aoki](https://www.linkedin.com/in/vanessasaoki/)
+
+## Aknowledgements
+
+Original design by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
 ## 🤝 Contributing
 
