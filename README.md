@@ -73,7 +73,7 @@ Optionally, you can run the application [here](https://react-covid-tracker-2021.
 - Twitter: [@VanessaSAoki](https://twitter.com/VanessaSAoki)
 - Linkedin: [Vanessa Aoki](https://www.linkedin.com/in/vanessasaoki/)
 
-## Aknowledgements
+## ⭐️ Aknowledgements
 
 Original design by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
@@ -82,10 +82,6 @@ Original design by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesign
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/VanessaAoki/covid-tracker/issues).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
 
 ## 📝 License
 
