@@ -21,8 +21,8 @@ Covid-tracker is a website that allows users to have access to the latest covid 
 > Original design by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
 <p align="center">
-  <img src="./src/assets/screenshot1.png" alt="main screen">
-  <img src="./src/assets/screenshot2.png" alt="detail screen">
+  <img src="./src/assets/screenshot1.png" alt="main screen" width="400">
+  <img src="./src/assets/screenshot2.png" alt="detail screen" width="400">
 </p>
 
 ## Built With
