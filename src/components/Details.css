@@ -1,0 +1,64 @@
+.backButton {
+  height: 1.5em;
+  margin-left: 0.3em;
+  font-size: x-large;
+  display: flex;
+  align-items: flex-end;
+}
+
+.regionTitle {
+  height: 45vw;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.regionTitle h2 {
+  text-transform: uppercase;
+  font-family: 'gillsans-bold', sans-serif;
+}
+
+.regionTitle p {
+  text-align: right;
+}
+
+.regionBanner {
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+  background-color: var(--dark);
+  width: 100vw;
+  height: 20px;
+  font-size: x-small;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+.regionTodayContainer article,
+.regionOverallContainer article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2em;
+  padding: 1em;
+}
+
+.regionTodayContainer article b,
+.regionOverallContainer article b {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.regionTodayContainer article:nth-child(odd),
+.regionOverallContainer article:nth-child(even) {
+  background-color: var(--second);
+}
+
+.regionTodayContainer article:nth-child(even),
+.regionOverallContainer article:nth-child(odd) {
+  background-color: var(--third);
+}

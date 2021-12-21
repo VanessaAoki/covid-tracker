@@ -1,0 +1,67 @@
+#searchInput {
+  background-color: var(--dark);
+  width: 100vw;
+  height: 25px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+#searchInput::placeholder {
+  color: rgb(230, 230, 230);
+}
+
+.stateList {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  background-color: var(--second);
+}
+
+.stateCard {
+  list-style: none;
+  width: 50vw;
+  height: 50vw;
+}
+
+.stateButton {
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+  text-align: right;
+  text-transform: uppercase;
+  background-color: var(--second);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-end;
+}
+
+.buttonArrow {
+  border: 1px solid white;
+  padding: 0.3em;
+  border-radius: 50%;
+  font-size: x-small;
+}
+
+.buttonTitle b {
+  font-size: large;
+  font-weight: bold;
+}
+
+.stateButton-1,
+.stateButton-2,
+.stateButton-5,
+.stateButton-6,
+.stateButton-9,
+.stateButton-10,
+.stateButton-13,
+.stateButton-14,
+.stateButton-17,
+.stateButton-18,
+.stateButton-21,
+.stateButton-22,
+.stateButton-25,
+.stateButton-26 {
+  background-color: var(--third);
+}
