@@ -1,5 +1,5 @@
 const FETCH_DATA_COUNTRY = 'FETCH_DATA_COUNTRY';
-const HANDLE_FETCH_ERROR = 'HANDLE_FETCH_ERROR';
+const HANDLE_COUNTRY_FETCH_ERROR = 'HANDLE_COUNTRY_FETCH_ERROR';
 const apiURL = 'https://api.covid19tracking.narrativa.com/api/';
 // AIzaSyAvEFXz3-bZRMojyQL0ufIfZopKUYMVy2A
 
@@ -11,7 +11,7 @@ export const fetchData = (data) => ({
 });
 
 const handleFetchError = () => ({
-  type: HANDLE_FETCH_ERROR,
+  type: HANDLE_COUNTRY_FETCH_ERROR,
 });
 
 export const fetchGetDataCountry = (date, country) => async (dispatch) => {
@@ -29,11 +29,8 @@ export const fetchGetDataCountry = (date, country) => async (dispatch) => {
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_DATA_COUNTRY:
-      if (state !== initialState) {
-        return state;
-      }
       return action.payload;
-    case HANDLE_FETCH_ERROR:
+    case HANDLE_COUNTRY_FETCH_ERROR:
       return state;
     default:
       return state;

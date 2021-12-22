@@ -29,9 +29,6 @@ export const fetchGetData = (date, country) => async (dispatch) => {
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_DATA:
-      if (state !== initialState) {
-        return state;
-      }
       return action.payload;
     case HANDLE_FETCH_ERROR:
       return state;

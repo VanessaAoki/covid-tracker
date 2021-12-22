@@ -1,3 +1,5 @@
+.date { color: black; }
+
 header {
   background-color: var(--dark);
   width: 100vw;
@@ -6,10 +8,20 @@ header {
   padding-left: 10px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 header h1 {
   font-size: 18px;
+}
+
+.date {
+  background-color: inherit;
+  width: 9.5em;
+}
+
+.date::-webkit-calendar-picker-indicator {
+  filter: invert(1);
 }
 
 .mainSection {

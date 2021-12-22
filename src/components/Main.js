@@ -1,4 +1,5 @@
-import { React, useEffect } from 'react';
+/* eslint-disable no-use-before-define */
+import { React, useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchGetData } from '../redux/main/main';
 import { fetchGetDataCountry } from '../redux/main/country';
@@ -13,13 +14,21 @@ const MainPage = () => {
   const date = new Date();
   const newDate = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
 
-  useEffect(() => {
-    dispatch(fetchGetData(newDate, 'Spain'));
-  }, []);
+  const [inputDate, setInputDate] = useState(newDate);
 
   useEffect(() => {
-    dispatch(fetchGetDataCountry(newDate, 'Spain'));
-  }, []);
+    dispatch(fetchGetData(inputDate, 'Spain'));
+  }, [inputDate]);
+
+  useEffect(() => {
+    dispatch(fetchGetDataCountry(inputDate, 'Spain'));
+  }, [inputDate]);
+
+  const handleChange = (e) => {
+    setInputDate(e.target.value);
+  };
+
+  console.log(inputDate);
 
   return (
     <div className="mainContainer">
@@ -27,7 +36,10 @@ const MainPage = () => {
         <article className="mainHeader">
           <h2>SPAIN</h2>
           <p>
-            Cases confirmed today:
+            Cases confirmed on
+            {' '}
+            <input type="date" className="date" name="date" value={inputDate} onChange={handleChange} />
+            :
             <br />
             {country.today_new_confirmed}
             <br />
