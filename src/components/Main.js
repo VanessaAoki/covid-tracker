@@ -11,13 +11,15 @@ const MainPage = () => {
   const data = useSelector((state) => state.data);
   const country = useSelector((state) => state.country);
   const dispatch = useDispatch();
+  const date = new Date();
+  const newDate = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
 
   useEffect(() => {
-    dispatch(fetchGetData('2021-12-15', 'Brazil'));
+    dispatch(fetchGetData(newDate, 'Brazil'));
   }, []);
 
   useEffect(() => {
-    dispatch(fetchGetDataCountry('2021-12-15', 'Brazil'));
+    dispatch(fetchGetDataCountry(newDate, 'Brazil'));
   }, []);
 
   return (
