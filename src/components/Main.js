@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { fetchGetData } from '../redux/main/main';
 import { fetchGetDataCountry } from '../redux/main/country';
 import Input from './Input';
-import brazil from '../assets/brazil.png';
 import './Data.css';
 import './Main.css';
 
@@ -15,19 +14,18 @@ const MainPage = () => {
   const newDate = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
 
   useEffect(() => {
-    dispatch(fetchGetData(newDate, 'Brazil'));
+    dispatch(fetchGetData(newDate, 'Spain'));
   }, []);
 
   useEffect(() => {
-    dispatch(fetchGetDataCountry(newDate, 'Brazil'));
+    dispatch(fetchGetDataCountry(newDate, 'Spain'));
   }, []);
 
   return (
     <div className="mainContainer">
       <section className="mainSection">
-        <img src={brazil} alt="brazil's map" className="brazilMap" />
         <article className="mainHeader">
-          <h2>BRAZIL</h2>
+          <h2>SPAIN</h2>
           <p>
             Cases confirmed today:
             <br />

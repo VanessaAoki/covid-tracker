@@ -1,24 +1,30 @@
+header {
+  background-color: var(--dark);
+  width: 100vw;
+  height: 25px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 18px;
+}
+
 .mainSection {
-  height: 45vw;
+  height: 30vw;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 10%;
-}
-
-.brazilMap {
-  height: 70%;
-  filter: invert(60%) sepia(40%) saturate(1000%) hue-rotate(180deg) brightness(60%) contrast(85%);
+  padding: 1em;
 }
 
 .mainHeader {
   display: flex;
   flex-direction: column;
-  align-content: flex-end;
-  align-items: flex-end;
+  align-content: flex-start;
+  align-items: flex-start;
 }
 
-.mainHeader h2 { font-family: 'gillsans-bold', sans-serif; }
-
-.mainHeader p { text-align: right; }
+.mainHeader p { text-align: left; }

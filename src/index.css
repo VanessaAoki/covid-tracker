@@ -1,18 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-
-@font-face {
-  font-family: "gillsans";
-  src:
-    local("gillsans"),
-    url("./assets/gillsans.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "gillsans-bold";
-  src:
-    local("gillsans-bold"),
-    url("./assets/gillsansbold.otf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 :root {
   --main: #4066ae;
@@ -27,12 +14,10 @@
   margin: 0;
   border: 0;
   color: white;
-  font-family: 'gillsans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 *:focus { outline: none; }
-
-a { text-decoration: none; }
 
 html {
   width: 100vw;
@@ -40,10 +25,25 @@ html {
   background-color: var(--first);
 }
 
+a { text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 700; 
+}
+
+b { font-weight: 700; }
+
 footer {
   background-color: var(--dark);
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  font-size: x-small;
+  font-weight: 300;
+  font-size: 12px;
   padding: 0.5em;
 }
+
+footer a { font-weight: 500; }

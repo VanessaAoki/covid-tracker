@@ -1,23 +1,15 @@
 .backButton {
-  height: 1.5em;
-  margin-left: 0.3em;
   font-size: x-large;
-  display: flex;
-  align-items: flex-end;
+  align-self: flex-start;
 }
 
 .regionTitle {
-  height: 45vw;
+  height: 30vw;
   padding: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-}
-
-.regionTitle h2 {
-  text-transform: uppercase;
-  font-family: 'gillsans-bold', sans-serif;
 }
 
 .regionTitle p {
@@ -30,9 +22,8 @@
   padding-left: 1em;
   background-color: var(--dark);
   width: 100vw;
-  height: 20px;
-  font-size: x-small;
-  font-family: 'Lato', sans-serif;
+  height: 25px;
+  font-size: 12px;
   font-weight: 300;
   box-sizing: border-box;
 }
@@ -48,9 +39,8 @@
 
 .regionTodayContainer article b,
 .regionOverallContainer article b {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  font-weight: 900;
 }
 
 .regionTodayContainer article:nth-child(odd),

@@ -10,21 +10,20 @@ const SecondPage = () => {
 
   return (
     <>
-      <Link to="/main">
-        <b className="backButton"><FaAngleLeft /></b>
-      </Link>
       <article className="regionTitle">
+        <Link to="/main" className="backButton">
+          <b><FaAngleLeft /></b>
+        </Link>
         <h2>{regionInfo.name}</h2>
         <p>
-          {regionInfo.today_confirmed}
-          {' '}
+          Total cases confirmed:
           <br />
-          cases confirmed
+          {regionInfo.today_confirmed}
           <br />
           **
         </p>
       </article>
-      <span className="regionBanner">REGION BREAKDOWN - 2021-12-15</span>
+      <span className="regionBanner">REGION BREAKDOWN - TODAY</span>
       <SpecificRegion data={regionInfo} />
     </>
   );

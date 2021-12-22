@@ -20,7 +20,7 @@
 .stateCard {
   list-style: none;
   width: 50vw;
-  height: 50vw;
+  height: 25vw;
 }
 
 .stateButton {
@@ -46,7 +46,6 @@
 
 .buttonTitle b {
   font-size: large;
-  font-weight: bold;
 }
 
 .stateButton-1,

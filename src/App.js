@@ -8,10 +8,12 @@ import {
 import MainPage from './components/Main';
 import SecondPage from './components/Details';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 const App = () => (
   <Router>
     <div>
+      <Header />
       <div>
         <Routes>
           <Route path="/" element={<Navigate to="/main" />} />

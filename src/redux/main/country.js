@@ -1,6 +1,7 @@
 const FETCH_DATA_COUNTRY = 'FETCH_DATA_COUNTRY';
 const HANDLE_FETCH_ERROR = 'HANDLE_FETCH_ERROR';
 const apiURL = 'https://api.covid19tracking.narrativa.com/api/';
+// AIzaSyAvEFXz3-bZRMojyQL0ufIfZopKUYMVy2A
 
 const initialState = [];
 
