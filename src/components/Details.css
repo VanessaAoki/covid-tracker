@@ -1,4 +1,6 @@
 .backButton {
+  position: absolute;
+  margin: 10px 8px;
   font-size: x-large;
   align-self: flex-start;
 }

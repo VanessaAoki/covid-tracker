@@ -10,10 +10,10 @@ const SecondPage = () => {
 
   return (
     <>
+      <Link to="/main" className="backButton">
+        <b><FaAngleLeft /></b>
+      </Link>
       <article className="regionTitle">
-        <Link to="/main" className="backButton">
-          <b><FaAngleLeft /></b>
-        </Link>
         <h2>{regionInfo.name}</h2>
         <p>
           Total cases confirmed:
