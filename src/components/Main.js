@@ -28,8 +28,6 @@ const MainPage = () => {
     setInputDate(e.target.value);
   };
 
-  console.log(inputDate);
-
   return (
     <div className="mainContainer">
       <section className="mainSection">

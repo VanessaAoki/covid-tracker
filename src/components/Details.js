@@ -23,7 +23,11 @@ const SecondPage = () => {
           **
         </p>
       </article>
-      <span className="regionBanner">REGION BREAKDOWN - TODAY</span>
+      <span className="regionBanner">
+        REGION BREAKDOWN -
+        {' '}
+        {regionInfo.date}
+      </span>
       <SpecificRegion data={regionInfo} />
     </>
   );
