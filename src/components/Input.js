@@ -25,7 +25,7 @@ const Input = (props) => {
   return (
     <>
       <form>
-        <input type="text" value={state.value} name="search" placeholder="Search by state name" onChange={handleChange} id="searchInput" />
+        <input type="text" value={state.value} name="search" placeholder="Search by region name" onChange={handleChange} id="searchInput" />
       </form>
       <DataCard data={searchResult} />
     </>
